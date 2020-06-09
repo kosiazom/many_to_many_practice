@@ -23,8 +23,7 @@ Task:  Build out the methods and relationships for a `Tourist` model, a `Landmar
   - returns the name of the given `Tourist`
 - `Tourist.find_by_name(name)`
   - given a string of a name, returns the **first tourist** whose  name matches
-- `Tourist#trips`
-  - returns an **array** of all the trips taken by the given `Tourist`
+- `Tourist#trip **array** of all the trips taken by the given `Tourist`
 - `Tourist#landmarks`
   - returns an **array** of all the landmarks for the given `Tourist`
 - `Tourist#visit_landmark(landmark)` should create a new trip for that tourist to the given landmark
